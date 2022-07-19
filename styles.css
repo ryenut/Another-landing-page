@@ -24,6 +24,9 @@ img {
 .navbar .container {
     display: flex;
     justify-content: space-between;
+    background: #570A57;
+    height: 60px;
+    align-items: center;
 }
 
 .navbar ul {
