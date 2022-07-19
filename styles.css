@@ -3,3 +3,8 @@
     padding: 0px;
     margin: 0px;
 }
+
+
+img {
+    max-width: 380px;
+}
