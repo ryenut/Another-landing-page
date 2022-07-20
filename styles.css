@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -9,6 +13,7 @@ body {
     color: #fff;
     font-size: 17px;
     line-height: 1.5;
+    font-family: 'Patrick Hand', sans-serif;
 }
 
 .container img {
@@ -58,6 +63,13 @@ ul {
     height: 400px;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 25px;
+}
 .main 
 .container  {
     display: flex;
@@ -79,9 +91,24 @@ ul {
     background: #8CC0DE;
     padding: 30px 30px;
     line-height: 1.5;
+    color: black;
 }
 
-p {
+.quote
+.container {
+    font-size: 20px;
+}
+
+
+i {
     text-align: right;
+    display: block;
 }
 
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: ;
+}
