@@ -11,14 +11,14 @@ body {
     line-height: 1.5;
 }
 
-img {
+.container img {
     max-width: 380px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 70px;
 }
 
 .navbar .container {
@@ -58,7 +58,19 @@ ul {
     height: 400px;
 }
 
-.header h1 {
-    font-size: 40px;
-    line-height: 1.2;
+
+.container  {
+    display: flex;
+    background: #1a960f;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.container .content {
+    text-align: center;
+}
+
+.content img {
+    max-width: 150px;
 }
