@@ -58,7 +58,7 @@ ul {
     height: 400px;
 }
 
-
+.main 
 .container  {
     display: flex;
     background: #1a960f;
@@ -74,3 +74,14 @@ ul {
 .content img {
     max-width: 150px;
 }
+
+.quote {
+    background: #8CC0DE;
+    padding: 30px 30px;
+    line-height: 1.5;
+}
+
+p {
+    text-align: right;
+}
+
